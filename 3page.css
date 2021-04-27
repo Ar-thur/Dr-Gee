@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+header{
+	font-family: Noto Sans Jp;
+	margin:0;
+	text-align: center;
+}
+
+header{
+  background:url(https://source.unsplash.com/pfR18JNEMv8) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+header{
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+h1{
+	font-size: 2.5rem;
+	color: #05090b;
+}
+
+h3{
+	font-size: 1rem;
+}
+
+header ul{
+	list-style: none;
+	text-decoration: none;
+}
+
+header a{
+	color: #485c79;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.btn{
+	border:grey 1px solid;
+	padding:0.5rem 2rem;
+	display: inline-block;
+	margin: 2rem 0 0;
+	border-radius: 50px;
+	text-decoration:none;
+	color:#333;
+}
+
+.btn:hover{
+	background: #f4f4f4;
+}
+
+.btn-1{
+	border:grey 1px solid;
+	padding:0.5rem 2rem;
+	display: inline-block;
+	margin: 2rem 0 0;
+	border-radius: 50px;
+	text-decoration:none;
+	color:#333;
+}
+
+.btn-1:hover{
+	background: #f4f4f4;
+}
+
+.btn-2{
+	border:grey 1px solid;
+	padding:0.5rem 2rem;
+	display: inline-block;
+	margin: 2rem 0 0;
+	border-radius: 50px;
+	text-decoration:none;
+	color:#333;
+}
+
+.btn-2:hover{
+	background: #f4f4f4;
+}
+
+header li{
+	float: right;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+span{
+	color: #d9bd95;
+}
+
+.container{
+	display: flex;
+	text-overflow: hidden;
+	text-align:center;
+}
+
+footer{
+	text-align: center;
+}
+
+.left{
+	background-color: #eee;
+}
+
+.right{
+	background-color: #ddd;
+}
+
+footer{
+  background:url(https://source.unsplash.com/pfR18JNEMv8) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+}
