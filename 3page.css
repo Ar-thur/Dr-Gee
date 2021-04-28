@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 @media(min-width: 300px){
+@media(min-width: 300px){
 
 header{
 	font-family: Noto Sans Jp;
@@ -44,6 +45,29 @@ header a{
 	text-transform: uppercase;
 	font-size: 16px;
 }
+
+body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: gradient 60s ease-in-out infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}s
 
 .m1{
 	margin-bottom: 60px;
@@ -99,6 +123,7 @@ input {
   border-bottom-style: groove;
   background-color: #fcfcfc;
 }
+
 
 input {
     font-size: 18pt;
@@ -202,4 +227,5 @@ footer{
 }
 
 
+}
 }
