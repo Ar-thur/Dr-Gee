@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@media(min-width: 300px){
 
 header{
 	font-family: Noto Sans Jp;
@@ -44,6 +45,10 @@ header a{
 	font-size: 16px;
 }
 
+.m1{
+	margin-bottom: 60px;
+}
+
 .btn{
 	border:grey 1px solid;
 	padding:0.5rem 2rem;
@@ -87,7 +92,7 @@ header a{
 }
 
 input {
-	padding-top: 1%;
+	padding-top: 15%;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
@@ -95,8 +100,41 @@ input {
   background-color: #fcfcfc;
 }
 
+input {
+    font-size: 18pt;
+    height: 42px;
+    width : 300px;
+}
+
 .no-outline:focus {
   outline: none;
+}
+
+.container-fb{
+	display:grid;
+	grid-template-columns: 1fr 1.5fr;
+	grid-gap: 1em;
+	grid-auto-rows:minmax(100px, auto);
+	text-align: center;
+}
+
+textarea{
+	padding-top: 20%
+	border-radius: 7px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;	
+	font-width:80px;
+}
+
+textarea{
+	margin-top:70px;
+}
+
+textarea {
+    font-size: 20pt;
+    height: 68%;
+    width : 500px;
 }
 
 header li{
@@ -106,7 +144,8 @@ header li{
 }
 
 .submit{
-	padding-top: 20px;
+
+	padding-bottom: 25px;
 }
 
 span{
@@ -117,6 +156,15 @@ span{
 	display: flex;
 	text-overflow: hidden;
 	text-align:center;
+}
+
+.btn{
+	cursor: pointer;
+}
+
+.btn:hover{
+	color: #1500ff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.07);
 }
 
 footer{
@@ -132,13 +180,13 @@ footer{
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
   transition: 0.3s;
   background-color: #fcfcfc;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
 }
 
 .container-c {
@@ -151,4 +199,7 @@ footer{
   height: 100%;
   overflow: hidden;
   color: #fff;
+}
+
+
 }
